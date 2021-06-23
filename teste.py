@@ -1,1 +1,0 @@
-print("Vai da bom, confia")
