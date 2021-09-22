@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <header class="primeiro">
+        <section>
+                <nav class="linha">
+                    <h2> BrazLimp </h2>  
+                        <ol class="opções">
+                            <li><a href=#Início > Início </a> </li>
+                            <li><a href=#Serviços> Serviços </a></li>
+                            <li><a href=#Atendimento> Atendimento </a> </li>
+                        </ol>       
+                </nav>
+                <div class= "fundão">
+                    <h1 class= prin> Diaristas no estado Piauiense. Solicite um serviço!</h1>
+                </div>
+        </section>
+    </header>
+    <main>
+        <section class="facedois">
+            <div><br><br><br><br><br><br>
+              <h1 class="tidois"> Por que você deve aderir nossos serviços? A resposta é: </h1>
+            </div>
+            <div> <br>
+                <ul class=dois>
+                    <li> Ética </li>
+                    <li> Qualidade </li>
+                    <li> Agilidade </li>
+                    <li> Segurança </li>
+                    <li> Preço bom! </li>
+                </ul> <br>
+            </div><br><br><br><br><br><br><br><br><br>
+        </section>
+        <section class= facetres>
+                <br>
+                <h1>Nossos serviços:</h1>
+                <hr>
+                <p> Aqui no site você solicita a data e o serviço, na seção "Atendimento", e recebe a confirmção no e-mail. Vejam os serviços disponíveis!</p>
+                    <div><br><br>
+                        <ul class=serv>
+                            <li> Diarista </li>
+                            <li> Mensalista </li>
+                            <li> Mestre do lar </li>
+                            <li> Churrasqueira </li>
+                            <li> Jardineira </li>
+                            <li> Garçom </li>
+                            <li> Copeira </li>
+                            <li> Lavadeira </li>
+                            <li> Cozinheiro </li>
+                            <li> Babá </li>
+                            <li> Cuidador de Idosos </li>
+                            <li> Piscineiro </li>
+                        </ul>
+                        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80">
+                    </div><br><br><br><br><br><br><br><br><br><br>
+            </div>
+       <section>
+                <form>
+                    <div>
+                        <h1>Atendimento</h1>
+                    </div>
+                    <hr>
+                    <div class=sub>
+                        <br>
+                        <label for="e-mail">Endereço de e-mail:</label><br>
+                        <input type="email" id="e-mail" class="PP" value="           "/><br><br>
+                        <label for=service>Serviço que deseja:</label><br>
+                        <input type="text" id="service" class="SS" value="           "/><br><br>
+                        <label for="Data"> Data: </label><br>
+                        <input type="date" id="Data" class="TT" ><br><br>
+                        <input type= "submit" value= "Enviar" class=botão>
+                        <br><br>
+                    </div>
+               </form>
+        </section> 
+    </main>
+</body>
+</html>
